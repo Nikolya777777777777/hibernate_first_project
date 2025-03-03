@@ -12,7 +12,7 @@ public class Main {
         Session session = sessionFactory.openSession();
         Transaction transaction = session.beginTransaction();
         Movie movie = new Movie();
-        movie.setTitle("Fast and Furious 7");
+        movie.setTitle("Fast and Furious 8");
         session.save(movie);
         transaction.commit();
         session.close();
